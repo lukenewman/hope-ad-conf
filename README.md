@@ -6,6 +6,8 @@ Currently, it is hard-coded to handle two stations with IDs `station1` and `stat
 
 ## endpoints
 
+The base URL for the API is `https://8ndi1e.deta.dev`. So, for example, to initialize the database for station 1, you would call `GET https://8ndi1e.deta.dev/initialize/station1`.
+
 `GET /initialize/{station_id}` -- initializes the database entry for a particular station and sets the station's flow to 0 -- **this needs to be called once at start or after deleting flow**
 
 `GET /flow/{station_id}` -- gets flow for a particular station (specified by the `station_id`)

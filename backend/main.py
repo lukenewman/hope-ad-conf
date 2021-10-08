@@ -4,7 +4,10 @@ from deta import Deta
 from typing import List
 
 app = FastAPI()
-origins = ["http://localhost:3001"]
+origins = [
+  "http://localhost:3001",
+  "https://hope-ad-conf.netlify.app"
+]
 app.add_middleware(
   CORSMiddleware,
   allow_origins=origins,
