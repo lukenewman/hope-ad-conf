@@ -1,0 +1,1 @@
+{"id":"44a82ad6-b9f7-4349-b090-14a88450ee58","space":5399,"runtime":"python3.7","name":"hope-ad-conf","path":"8ndi1e","project":"b0notwt2","account":"144798365827","region":"us-west-1","deps":["fastapi","deta"],"envs":null,"public":true,"log_level":"debug","cron":""}
