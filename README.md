@@ -1,6 +1,6 @@
 # backend
 
-The backend uses FastAPI to set up a simple API that can get, update, and delete flow for a station. 
+The backend uses FastAPI to set up a simple API that can get, update, and delete flow for a station. It can also get the total flow of all stations.
 
 Currently, it is hard-coded to handle two stations with IDs `station1` and `station2`.
 
