@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c63f345.chunk.css",
+    "main.js": "/static/js/main.6b9a31b5.chunk.js",
+    "main.js.map": "/static/js/main.6b9a31b5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3b887bc4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3b887bc4.js.map",
+    "static/css/2.72bb49b1.chunk.css": "/static/css/2.72bb49b1.chunk.css",
+    "static/js/2.5d1da734.chunk.js": "/static/js/2.5d1da734.chunk.js",
+    "static/js/2.5d1da734.chunk.js.map": "/static/js/2.5d1da734.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.72bb49b1.chunk.css.map": "/static/css/2.72bb49b1.chunk.css.map",
+    "static/css/main.6c63f345.chunk.css.map": "/static/css/main.6c63f345.chunk.css.map",
+    "static/js/2.5d1da734.chunk.js.LICENSE.txt": "/static/js/2.5d1da734.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/background_1080.3fd88642.svg",
+    "static/media/aw-logo-black.71eb21cd.png": "/static/media/aw-logo-black.71eb21cd.png",
+    "static/media/bottle.7c4acb49.svg": "/static/media/bottle.7c4acb49.svg",
+    "static/media/duckduckgo.d9b2e664.svg": "/static/media/duckduckgo.d9b2e664.svg",
+    "static/media/hope-logo.7ee171e1.svg": "/static/media/hope-logo.7ee171e1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b887bc4.js",
+    "static/css/2.72bb49b1.chunk.css",
+    "static/js/2.5d1da734.chunk.js",
+    "static/css/main.6c63f345.chunk.css",
+    "static/js/main.6b9a31b5.chunk.js"
+  ]
+}
