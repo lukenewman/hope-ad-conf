@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'GeneralSans-Semibold';
+  src: url('./fonts/GeneralSans-Semibold.woff2') format('woff2'),
+       url('./fonts/GeneralSans-Semibold.woff') format('woff'),
+       url('./fonts/GeneralSans-Semibold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+}
+
+@font-face {
+  font-family: 'GeneralSans-Bold';
+  src: url('./fonts/GeneralSans-Bold.woff2') format('woff2'),
+       url('./fonts/GeneralSans-Bold.woff') format('woff'),
+       url('./fonts/GeneralSans-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+}
+
+html, body, #app, #app>div, #root {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #F6F3F1;
+}
+
+.app {
+  font-family: 'GeneralSans-Semibold' 'Open Sans' 'sans-serif';
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #F6F3F1;
+  background-image: url(./images/background.svg);
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+}
+
+@media only screen and (min-width: 1300px) {
+  .app {
+    background-image: url(./images/background_1080.svg);
+  }
+}
+
+.left-container {
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 80px;
+}
+
+.bottle {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  max-width: 600px;
+  max-height: 800px;
+  opacity: 0.3;
+}
+
+.right-container {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header {
+  font-family: 'GeneralSans-Semibold';
+  font-size: 6.5vh;
+  color: #82C4FF;
+  width: 100%;
+}
+
+.odometer-wrapper {
+  font-family: 'GeneralSans-Semibold';
+  width: 80%;
+  font-size: 10vw;
+  color: #F6F3F1;
+}
+
+.odometer-label {
+  font-family: 'GeneralSans-Semibold';
+  font-size: 5vh;
+  text-align: right;
+  padding-left: 5vw;
+}
+
+.logo-wrapper {
+  max-width: 60%;
+}
+
+.powered-by-wrapper {
+  max-width: 60%;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.microsoft-logo {
+  max-width: 100%;
+  padding-bottom: 5vh;
+}
+
+.x {
+  font-family: 'GeneralSans-Bold';
+  font-size: 2vh;
+  text-align: center;
+  color: #0055B8;
+}
+
+.powered-by {
+  font-family: 'GeneralSans-Bold';
+  font-size: 3vh;
+  color: #F6F3F1;
+  padding-bottom: 1vh;
+}
+
+.tagline {
+  font-family: 'GeneralSans-Medium';
+  font-size: 2.5vh;
+  color: #F6F3F1;
+  padding-bottom: 1vh;
+}
